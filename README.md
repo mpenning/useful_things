@@ -70,7 +70,6 @@
 - [marshmallow][marshmallow] - Implement Python object serialization an de-serialization with type validation; works well with nested dicts
 - [trio][trio] - Python async and concurrency library
 - [orjson][orjson] - Fast and correct json parsing library
-- [pydhcpd][pydhcpd] - Fast Python DHCPd
 - [ptftpd][ptftpd] - Python TFTPd and PXE tool suite
 - [pyjwt][pyjwt] - Python implementation of JWT (JSON Web Token)
 - [python-saml][python-saml] - Python SAML toolkit
@@ -132,7 +131,7 @@
 - [keras][keras]
 - [scikit-learn][scikit-learn]
 - [langchain][langchain] - Framework for building AI Agents
-- [Text-Blob][Text-Blog] - Text processing and sentiment analysis
+- [textblob][textblob] - Text processing and sentiment analysis
 - [MLAlgorithms][MLAlgorithms] - Clean Machine Learning examples
 
 ## Rust Language
@@ -283,9 +282,12 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [pexpect]: https://github.com/pexpect/pexpect
   [dnspython]: https://github.com/rthalley/dnspython
   [pyshark]: https://github.com/KimiNewt/pyshark
-  [pydoc]: https://github.com/mitmproxy/pdoc
   [pyparsing]: https://github.com/pyparsing/pyparsing
   [pdoc]: https://github.com/mitmproxy/pdoc
+  [rocketry]: https://github.com/Miksus/rocketry
+  [textblob]: https://github.com/sloria/textblob
+  [codon]: https://github.com/exaloop/codon
+  [pyinstrument]: https://github.com/joerick/pyinstrument
   [exabgp]: https://github.com/Exa-Networks/exabgp
   [nornir]: https://github.com/nornir-automation/nornir
   [snoop]: https://github.com/alexmojaki/snoop
