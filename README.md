@@ -193,10 +193,13 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [RustScan][RustScan]: Port-scanner; like `nmap` but in Rust
 - [secure_cartography][secure-cartography]: Use CDP / LLDP / SSH to compile accurate network diagrams 
 
+### Network Emulators
+
+- [containerlab][containerlab]: Build arbitrary topologies of your favorite Cisco / Arista / Juniper / Nokia Operating System as a Docker container
+- [vrnetlab][vrnetlab]: Tool to convert router images to a Docker container
 
 ### Network Tools - Diagnostics and Testing
 
-- [containerlab][containerlab]: Build arbitrary topologies of your favorite Cisco / Arista / Juniper / Nokia Operating System as a Docker container
 - [trippy][trippy]: Traceroute / [mtr][mtr] written in Rust
 - [mtr][mtr]: Traceroute / mtr written in Rust
 - [sniffnet][sniffnet]: Cross-platform network traffic capture with a nice GUI (Windows / MacOS / Linux)
@@ -366,5 +369,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [coredns]: https://github.com/coredns/coredns
   [unbound]: https://github.com/NLnetLabs/unbound
   [frp]: https://github.com/fatedier/frp
+  [containerlab]: https://github.com/srl-labs/containerlab
+  [vrnetlab]: https://github.com/vrnetlab/vrnetlab
   [secure-cartography]: https://github.com/scottpeterman/secure_cartography
 
