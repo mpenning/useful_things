@@ -153,6 +153,10 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 
 - [rexpect][rexpect] - Rust expect library
 
+## Go Language
+
+- [go-charts][go-charts]: Go charts library
+- [plot][plot]: A repository for plotting and visualizing data
 
 ## Tools
 
@@ -178,15 +182,21 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 ### Network Tools - Services
 
 - [caddy][caddy]: Go webserver / reverse proxy with auto-TLS certificate generation
+- [frp][frp]: A Golang fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
+- [nsd][nsd]: DNS server in C
+- [coredns][coredns]: Golang DNS server that supports UDP, DoT, DoH, DoQUIC and more.
+- [unbound][unbound]: Popular DNS resolver library
 - [Netbox][netbox]: Network source of truth; based on Django
 - [NIPAP][nipap]: Open-source IP address management (IPAM)
 - [fail2ban][fail2ban]: Monitor and black-hole repetitive attacks on your Linux server
 - [maltrail][maltrail]: Detect malicious network traffic
 - [RustScan][RustScan]: Port-scanner; like `nmap` but in Rust
+- [secure_cartography][secure-cartography]: Use CDP / LLDP / SSH to compile accurate network diagrams 
 
 
 ### Network Tools - Diagnostics and Testing
 
+- [containerlab][containerlab]: Build arbitrary topologies of your favorite Cisco / Arista / Juniper / Nokia Operating System as a Docker container
 - [trippy][trippy]: Traceroute / [mtr][mtr] written in Rust
 - [mtr][mtr]: Traceroute / mtr written in Rust
 - [sniffnet][sniffnet]: Cross-platform network traffic capture with a nice GUI (Windows / MacOS / Linux)
@@ -198,6 +208,9 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [mitmproxy][mitmproxy]: An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
 - [go-mitmproxy][go-mitmproxy]: A port of [mitmproxy][mitmproxy] to Go
 - [flent][flent]: A network performance test client, which requires [fping][fping] (client-side), [netperf][netperf] (server-side) or [iperf2][iperf2] (server-side)
+- [crusader][crusader]: Rust-based network testing and results graphing
+- [goben][goben]: Measure TCP / UDP throughput between hosts
+- [TRex][trex]: Cisco's flexible Network test tool
 - [netperf][netperf]: A network performance test server, written by Hewlett Packard.  It's best to install the Debian package instead of trying to compile [netperf][netperf]
 
 
@@ -324,6 +337,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [difftastic]: https://github.com/Wilfred/difftastic
   [taskwarrior]: https://github.com/GothenburgBitFactory/taskwarrior
   [influxdb]: https://github.com/influxdata/influxdb/
+  [go-charts]: https://github.com/go-echarts/go-echarts
   [rrdtool]: https://github.com/oetiker/rrdtool-1.x
   [just]: https://github.com/casey/just
   [netbox]: https://github.com/netbox-community/netbox
@@ -344,4 +358,13 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [clap]: https://github.com/clap-rs/clap
   [rust-by-example]: https://doc.rust-lang.org/rust-by-example/
   [ruamel-yaml]: https://pypi.org/project/ruamel.yaml/
+  [plots]: https://github.com/gonum/plot
+  [crusader]: https://github.com/Zoxc/crusader
+  [goben]: https://github.com/udhos/goben
+  [trex]: https://github.com/cisco-system-traffic-generator/trex-core
+  [nsd]: https://github.com/NLnetLabs/nsd
+  [coredns]: https://github.com/coredns/coredns
+  [unbound]: https://github.com/NLnetLabs/unbound
+  [frp]: https://github.com/fatedier/frp
+  [secure-cartography]: https://github.com/scottpeterman/secure_cartography
 
