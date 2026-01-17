@@ -285,6 +285,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [pyshark]: https://github.com/KimiNewt/pyshark
   [pydoc]: https://github.com/mitmproxy/pdoc
   [pyparsing]: https://github.com/pyparsing/pyparsing
+  [pdoc]: https://github.com/mitmproxy/pdoc
   [exabgp]: https://github.com/Exa-Networks/exabgp
   [nornir]: https://github.com/nornir-automation/nornir
   [snoop]: https://github.com/alexmojaki/snoop
