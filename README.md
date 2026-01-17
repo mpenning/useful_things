@@ -170,6 +170,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [just][just]: `just` is like `make`, but without the `Makefile` syntax warts
 - [sd][sd]: Find and replace simplified
 - [ripgrep][ripgrep]: Recursive grep through directories
+- [RustScan][RustScan]: A fast port-scanner in Rust (can replace `nmap` for some tasks)
 
 ### Terminal utilites
 
@@ -388,4 +389,5 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [tock]: https://github.com/tock/tock
   [uv]: https://github.com/astral-sh/uv
   [ty]: https://github.com/astral-sh/ty
+  [RustScan]: https://github.com/bee-san/RustScan
 
