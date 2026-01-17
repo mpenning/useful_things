@@ -38,6 +38,8 @@
 
 ### Python - General Usage
 
+- [uv][uv]: A rust replacement for `pip`
+- [ty][ty]: A Python type checker in rust
 - [pre-commit][pre-commit] - Add hooks to git commit actions
 - [ultisnips][ultisnips]
 - [cookiecutter][cookiecutter] - A disk and file templating framework
@@ -186,6 +188,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [nsd][nsd]: DNS server in C
 - [coredns][coredns]: Golang DNS server that supports UDP, DoT, DoH, DoQUIC and more.
 - [unbound][unbound]: Popular DNS resolver library
+- [scylladb][scylladb]: Fast NoSQL DB
 - [Netbox][netbox]: Network source of truth; based on Django
 - [NIPAP][nipap]: Open-source IP address management (IPAM)
 - [fail2ban][fail2ban]: Monitor and black-hole repetitive attacks on your Linux server
@@ -216,6 +219,12 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [TRex][trex]: Cisco's flexible Network test tool
 - [netperf][netperf]: A network performance test server, written by Hewlett Packard.  It's best to install the Debian package instead of trying to compile [netperf][netperf]
 
+### Embedded Operating Systems
+
+- [Zephyr][zephyros]: A popular RTOS for Embedded systems
+- [Embassy][embassy]: A rust embedded operating system
+- [rtic][rtic]: RTOS for ARM Cortex-M microcontrollers
+- [Tock][tock]: A secure RTOS for embedded system
 
   [pysnooper]: https://github.com/cool-RR/PySnooper
   [traitlets]: https://github.com/ipython/traitlets
@@ -372,4 +381,11 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [containerlab]: https://github.com/srl-labs/containerlab
   [vrnetlab]: https://github.com/vrnetlab/vrnetlab
   [secure-cartography]: https://github.com/scottpeterman/secure_cartography
+  [scylladb]: https://github.com/scylladb/scylladb
+  [embassy]: https://github.com/embassy-rs/embassy
+  [zephyros]: https://github.com/zephyrproject-rtos/zephyr
+  [rtic]: https://github.com/rtic-rs/rtic
+  [tock]: https://github.com/tock/tock
+  [uv]: https://github.com/astral-sh/uv
+  [ty]: https://github.com/astral-sh/ty
 
