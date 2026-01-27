@@ -113,6 +113,7 @@
 - [PyGithub][PyGithub] - GitHub v3 API python library
 - [GitPython][GitPython] - Python API for git repositories
 - [atlassian-python-api][atlassian-python-api] - REST API for Atlassian products (i.e. Jira, Confluence)
+- [landslide][landslide]: Markdown and Python-based slide deck library
 
 
 ### Python - Network Automation
@@ -164,13 +165,18 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 
 ### General Use utilities
 
+- [zellij][zellij]: A rust terminal multiplexer
 - [difftastic][difftastic]: A text file differ that understands many programming languages.  Diffs are intelligent based on the language in the file.
 - [taskwarrior][taskwarrior]: A task-list manager with a useful CLI
 - [yamlfix][yamlfix]: YAML formatter and fixer
 - [just][just]: `just` is like `make`, but without the `Makefile` syntax warts
 - [sd][sd]: Find and replace simplified
+- [difftastic][difftastic]: Syntax-aware text diff in rust
 - [ripgrep][ripgrep]: Recursive grep through directories
+- [bottom][bottom]: Terminal-based resource monitor (executable named `btm`)
 - [RustScan][RustScan]: A fast port-scanner in Rust (can replace `nmap` for some tasks)
+- [reveal.js][reveal.js]: HTML and JS-based slide deck
+- [starship][starship]: Dynamic rust-powered shell prompts with meaningful info
 
 ### Terminal utilites
 
@@ -390,4 +396,10 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [uv]: https://github.com/astral-sh/uv
   [ty]: https://github.com/astral-sh/ty
   [RustScan]: https://github.com/bee-san/RustScan
+  [bottom]: https://github.com/ClementTsang/bottom
+  [difftastic]: https://github.com/Wilfred/difftastic/
+  [zellij]: https://github.com/zellij-org/zellij
+  [reveal.js]: https://github.com/hakimel/reveal.js
+  [landslide]: https://github.com/adamzap/landslide
+  [starship]: https://github.com/starship/starship
 
