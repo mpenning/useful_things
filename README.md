@@ -178,6 +178,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [reveal.js][reveal.js]: HTML and JS-based slide deck
 - [starship][starship]: Dynamic rust-powered shell prompts with meaningful info
 - [Win11Debloat][win11debloat]: Powershell script to disable Microsoft trackers and other Win11 bloatware.
+- [warp][warp]: Windows / Linux / MacOS Shell with embedded AI agent capabilities.
 
 ### Terminal utilites
 
@@ -404,4 +405,5 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [landslide]: https://github.com/adamzap/landslide
   [starship]: https://github.com/starship/starship
   [win11debloat]: https://github.com/Raphire/Win11Debloat
+  [warp]: https://github.com/warpdotdev/Warp
 
