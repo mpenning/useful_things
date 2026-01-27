@@ -177,6 +177,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [RustScan][RustScan]: A fast port-scanner in Rust (can replace `nmap` for some tasks)
 - [reveal.js][reveal.js]: HTML and JS-based slide deck
 - [starship][starship]: Dynamic rust-powered shell prompts with meaningful info
+- [Win11Debloat][win11debloat]: Powershell script to disable Microsoft trackers and other Win11 bloatware.
 
 ### Terminal utilites
 
@@ -402,4 +403,5 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [reveal.js]: https://github.com/hakimel/reveal.js
   [landslide]: https://github.com/adamzap/landslide
   [starship]: https://github.com/starship/starship
+  [win11debloat]: https://github.com/Raphire/Win11Debloat
 
