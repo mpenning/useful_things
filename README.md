@@ -48,6 +48,7 @@
 - [msgspec][msgspec] - Fast Python object serialization / deserialization with type checking; partially implemented in C.  Data is supported in json, yaml, and [MessagePack][msgpack-py], and toml.
 - [msgpack][msgpack-py] - MessagePack is an efficient binary serialization format. It lets you exchange data among multiple languages like JSON. But it's faster and smaller. This package provides CPython bindings for reading and writing MessagePack data.
 - [marshmallow][marshmallow] - Implement Python object serialization an de-serialization with type validation; this library is oriented around Python objects as dicts.
+- [transitions][transitions] - Python Finite State Machine
 - [loguru][loguru] - Delgan's excellent Python logging framework
 - [trio][trio] - Python async and concurrency library
 - [Arrow][arrow] - Flexible Python time-handling
@@ -105,7 +106,6 @@
 - [pexpect][pexpect] - Pythonic Expect library
 - [pyparsing][pyparsing] - Popular python parsing library via PEG parser
 - [TextFSM][textfsm] - Stateful templated python text parsing and value extraction
-- [transitions][transitions] - Python Finite State Machine
 - [fuzzywuzzy][fuzzywuzzy] - Fuzzy text matching
 - [rich][rich] - Command-line text formatting library
 - [python-prompt-toolkit][python_prompt_toolkit] - Build interactive Python command-line programs
