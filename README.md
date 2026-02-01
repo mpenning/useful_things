@@ -170,6 +170,10 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [go-charts][go-charts]: Go charts library
 - [plot][plot]: A repository for plotting and visualizing data
 
+## Info
+
+- [what-happens-when][what-happens-when]: A detailed description of what happens when you type "google.com" into your browser and press Enter.
+
 ## Tools
 
 ### General Use utilities
@@ -422,4 +426,5 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [msgspec]: https://github.com/jcrist/msgspec
   [msgpack-py]: https://github.com/msgpack/msgpack-python
   [adaptix]: https://github.com/reagento/adaptix
+  [what-happens-when]: https://github.com/alex/what-happens-when
 
