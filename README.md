@@ -32,7 +32,7 @@
 
 ### Cloud Infrastructure
 
-- [checkov][checkov]: Lint your AWS CloudFormation
+- [checkov][checkov]: Lint your Terraform, Dockerfiles and more
 - [ScoutSuite][ScoutSuite]: Multi-cloud security auditing
 
 ## Python Language
@@ -43,6 +43,7 @@
 - [attrs][attrs] - Python classes without boilerplate
 - [typeguard][typeguard]: Python runtime type checker; needs a maintainer after v4.0.0
 - [pydantic][pydantic] - Python data validation inside classes
+- [adaptix][adaptix] - Simplified Python data validation and conversion between sqlite, dict, dataclasses
 - [traitlets][traitlets] - Python classes with strong typing and attribute observer operations.
 - [msgspec][msgspec] - Fast Python object serialization / deserialization with type checking; partially implemented in C.  Data is supported in json, yaml, and [MessagePack][msgpack-py], and toml.
 - [msgpack][msgpack-py] - MessagePack is an efficient binary serialization format. It lets you exchange data among multiple languages like JSON. But it's faster and smaller. This package provides CPython bindings for reading and writing MessagePack data.
@@ -420,5 +421,5 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [pydantic]: https://github.com/pydantic/pydantic
   [msgspec]: https://github.com/jcrist/msgspec
   [msgpack-py]: https://github.com/msgpack/msgpack-python
-
+  [adaptix]: https://github.com/reagento/adaptix
 
