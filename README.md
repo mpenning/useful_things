@@ -4,6 +4,7 @@
 
 - [vulture][vulture] - Find dead python code
 - [pylama][pylama] - Useful python code-audit tool
+- [ty][ty]: A Python type checker in rust
 - [pyupgrade][pyupgrade] - Automatically upgrade python syntax to baseline against specific python versions
 - [yamllint][yamllint] - Simple yaml linter
 - [yamlfix][yamlfix] - Automatic yaml formatting fixer
@@ -36,10 +37,35 @@
 
 ## Python Language
 
+### Python - Code Infrastructure
+
+- [click][click] - Flexible CLI arguments library as an improvement over `argparse`
+- [attrs][attrs] - Python classes without boilerplate
+- [typeguard][typeguard]: Python runtime type checker; needs a maintainer after v4.0.0
+- [pydantic][pydantic] - Python data validation inside classes
+- [traitlets][traitlets] - Python classes with strong typing and attribute observer operations.
+- [msgspec][msgspec] - Fast Python object serialization / deserialization with type checking; partially implemented in C.  Data is supported in json, yaml, and [MessagePack][msgpack-py], and toml.
+- [msgpack][msgpack-py] - MessagePack is an efficient binary serialization format. It lets you exchange data among multiple languages like JSON. But it's faster and smaller. This package provides CPython bindings for reading and writing MessagePack data.
+- [marshmallow][marshmallow] - Implement Python object serialization an de-serialization with type validation; this library is oriented around Python objects as dicts.
+- [loguru][loguru] - Delgan's excellent Python logging framework
+- [trio][trio] - Python async and concurrency library
+- [Arrow][arrow] - Flexible Python time-handling
+- [whenever][whenever] - Time-handling replacement for Python datetime and some [Arrow][arrow] use-cases
+
+### Python - Compilers / Transpilers
+
+- [codon][codon] - Compile Python into static binaries
+- [PyO3][pyo3] - Write Python modules in rust, or embed Python in a rust binary
+- [Cython][Cython] - Accelerate Python with C
+- [py2many][py2many] - A python transpiler (i.e. convert Python to Rust, C++, etc...)
+- [py2exe][py2exe] - Compile Python to Windows binaries
+- [pyinstaller][pyinstaller] - Compile to binary including required packages
+- [Nuitka][nuitka] - Compile python code to a binary
+- [Cython][Cython] - CPython compiler
+
 ### Python - General Usage
 
 - [uv][uv]: A rust replacement for `pip`
-- [ty][ty]: A Python type checker in rust
 - [pre-commit][pre-commit] - Add hooks to git commit actions
 - [ultisnips][ultisnips]
 - [cookiecutter][cookiecutter] - A disk and file templating framework
@@ -48,30 +74,12 @@
 - [diagrams][diagrams] - Diagrams as Python code
 - [mermaid-py][mermaid-py] - Python interface to `mermaid-js` diagramming library
 - [jupyter-notebook][jupyter_notebook] - Dynamically analyze python code as a savable notebook
-
-### Python - Compilers / Transpilers
-
-- [codon][codon] - Compile Python into static binaries
-- [PyO3][pyo3] - Write Python modules in rust, or embed Python in a rust binary
-- [Cython][Cython] - Accelerate Python with C
-- [py2many][py2many] - A python transpiler (i.e. convert Python to Rust, C++, etc...)
-- [pyinstaller][pyinstaller] - Compile to binary including required packages
-- [Nuitka][nuitka] - Compile python code to a binary
-- [Cython][Cython] - CPython compiler
-
-### Python - Code Libraries
-
-- [Arrow][arrow] - Flexible Python time-handling
-- [whenever][whenever] - Time-handling replacement for Python datetime and some [Arrow][arrow] use-cases
-- [traitlets][traitlets] - Python classes with strong typing and attribute observer operations.
-- [attrs][attrs] - Python classes without boilerplate
 - [GitPython][gitpython] - Manage git repositories with python
-- [loguru][loguru] - Delgan's excellent Python logging framework
 - [rich][rich] - Library for terminal colorization
 - [scrapy][scrapy] - Web scraping framework
-- [marshmallow][marshmallow] - Implement Python object serialization an de-serialization with type validation; works well with nested dicts
-- [trio][trio] - Python async and concurrency library
 - [orjson][orjson] - Fast and correct json parsing library
+- [pyyaml][pyyaml] - Pythonic yaml handling
+- [ruamel.yaml][ruamel-yaml] - Pythonic yaml handling
 - [ptftpd][ptftpd] - Python TFTPd and PXE tool suite
 - [pyjwt][pyjwt] - Python implementation of JWT (JSON Web Token)
 - [python-saml][python-saml] - Python SAML toolkit
@@ -92,15 +100,12 @@
 - [plotly][plotly] - Graphing and plotting library
 - [prophet][prophet] - Facebook's canned time-series forcasting library
 - [pysmb][pysmb] - Python SMB client
-- [pyyaml][pyyaml] - Pythonic yaml handling
-- [ruamel.yaml][ruamel-yaml] - Pythonic yaml handling
 - [rocketry][rocketry] - Pythonic scheduling and cron-like recur using python decorators
 - [pexpect][pexpect] - Pythonic Expect library
 - [pyparsing][pyparsing] - Popular python parsing library via PEG parser
 - [TextFSM][textfsm] - Stateful templated python text parsing and value extraction
 - [transitions][transitions] - Python Finite State Machine
 - [fuzzywuzzy][fuzzywuzzy] - Fuzzy text matching
-- [click][click] - Flexible CLI arguments library as an improvement over `argparse`
 - [rich][rich] - Command-line text formatting library
 - [python-prompt-toolkit][python_prompt_toolkit] - Build interactive Python command-line programs
 - [deepdiff][deepdiff] - Diff python nested dicts
@@ -114,7 +119,6 @@
 - [GitPython][GitPython] - Python API for git repositories
 - [atlassian-python-api][atlassian-python-api] - REST API for Atlassian products (i.e. Jira, Confluence)
 - [landslide][landslide]: Markdown and Python-based slide deck library
-
 
 ### Python - Network Automation
 
@@ -136,6 +140,10 @@
 - [langchain][langchain] - Framework for building AI Agents
 - [textblob][textblob] - Text processing and sentiment analysis
 - [MLAlgorithms][MLAlgorithms] - Clean Machine Learning examples
+
+## Go Language
+
+- [delve][delve] - Go debugger; also see the [delve youtube demo](https://www.youtube.com/watch?v=a1SneuI65O0)
 
 ## Rust Language
 
@@ -406,4 +414,11 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [starship]: https://github.com/starship/starship
   [win11debloat]: https://github.com/Raphire/Win11Debloat
   [warp]: https://github.com/warpdotdev/Warp
+  [delve]: https://github.com/go-delve/delve
+  [typeguard]: https://github.com/agronholm/typeguard
+  [py2exe]: https://github.com/py2exe/py2exe
+  [pydantic]: https://github.com/pydantic/pydantic
+  [msgspec]: https://github.com/jcrist/msgspec
+  [msgpack-py]: https://github.com/msgpack/msgpack-python
+
 
