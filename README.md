@@ -46,7 +46,7 @@
 - [adaptix][adaptix] - Simplified Python data validation and conversion between sqlite, dict, dataclasses
 - [traitlets][traitlets] - Python classes with strong typing and attribute observer operations.
 - [msgspec][msgspec] - Fast Python object serialization / deserialization with type checking; partially implemented in C.  Data is supported in json, yaml, and [MessagePack][msgpack-py], and toml.
-- [msgpack][msgpack-py] - MessagePack is an efficient binary serialization format. It lets you exchange data among multiple languages like JSON. But it's faster and smaller. This package provides CPython bindings for reading and writing MessagePack data.
+- [msgpack][msgpack-py] - MessagePack for Python is an efficient binary serialization format. It lets you exchange data among multiple formats.  See [msgspec][msgspec] for more detail.
 - [marshmallow][marshmallow] - Implement Python object serialization an de-serialization with type validation; this library is oriented around Python objects as dicts.
 - [transitions][transitions] - Python Finite State Machine
 - [loguru][loguru] - Delgan's excellent Python logging framework
