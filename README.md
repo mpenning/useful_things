@@ -17,6 +17,7 @@
 - [PySnooper][pysnooper] - Debug python with decorators
 - [snoop][snoop] - Debug python with decorators; similar to PySnooper
 - [bandit][bandit] - Find security problems in python code
+- [complexipy][complexipy] - Rapidly find Python methods that are too complex
 - [pss][pss] - Code-search tool written in python
 - [rust-analyzer][rust-analyzer] - Linter for rust projects
 
@@ -53,6 +54,8 @@
 - [trio][trio] - Python async and concurrency library
 - [Arrow][arrow] - Flexible Python time-handling
 - [whenever][whenever] - Time-handling replacement for Python datetime and some [Arrow][arrow] use-cases
+- [flask][flask] - Simple python web-development framework
+- [waitress][waitress] - A production-grade WSGI web server (useful to serve flask apps in production)
 
 ### Python - Compilers / Transpilers
 
@@ -184,7 +187,6 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [yamlfix][yamlfix]: YAML formatter and fixer
 - [just][just]: `just` is like `make`, but without the `Makefile` syntax warts
 - [sd][sd]: Find and replace simplified
-- [difftastic][difftastic]: Syntax-aware text diff in rust
 - [ripgrep][ripgrep]: Recursive grep through directories
 - [bottom][bottom]: Terminal-based resource monitor (executable named `btm`)
 - [RustScan][RustScan]: A fast port-scanner in Rust (can replace `nmap` for some tasks)
@@ -211,6 +213,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [coredns][coredns]: Golang DNS server that supports UDP, DoT, DoH, DoQUIC and more.
 - [unbound][unbound]: Popular DNS resolver library
 - [scylladb][scylladb]: Fast NoSQL DB
+- [httptap][httptap]: Get a terminal waterfall diagram of website responses
 - [Netbox][netbox]: Network source of truth; based on Django
 - [NIPAP][nipap]: Open-source IP address management (IPAM)
 - [fail2ban][fail2ban]: Monitor and black-hole repetitive attacks on your Linux server
@@ -227,9 +230,12 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 
 - [trippy][trippy]: Traceroute / [mtr][mtr] written in Rust
 - [mtr][mtr]: Traceroute / mtr written in Rust
+- [latency-monitor][latency-monitor]: One or two-way latency measurements
 - [sniffnet][sniffnet]: Cross-platform network traffic capture with a nice GUI (Windows / MacOS / Linux)
 - [gping][gping]: Graph ping response times (written in Rust) in the terminal window
 - [pingtracer][pingtracer]: Progressive ping logger written for MS Windows; discovers all hops in the path and pings them
+- [Rust-Ping][rust-ping]: Open source NMS written in Rust
+- [network-monitor][network-monitor]: Open source NMS written in Rust
 - [nethogs][nethogs]: Detect which linux processes are consuming the most bandwidth
 - [bandwhich][bandwhich]: Detect which linux processes are consuming the most bandwidth (written in Rust)
 - [sniffer][sniffer]: Detect which linux / Windows processes are consuming the most bandwidth (written in Go)
@@ -427,4 +433,11 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [msgpack-py]: https://github.com/msgpack/msgpack-python
   [adaptix]: https://github.com/reagento/adaptix
   [what-happens-when]: https://github.com/alex/what-happens-when
+  [latency-monitor]: https://github.com/mirceaulinic/latency-monitor/
+  [complexipy]: https://github.com/rohaquinlop/complexipy
+  [httptap]: https://github.com/ozeranskii/httptap
+  [rust-ping]: https://github.com/karthik558/Rust-Ping
+  [network-monitor]: https://github.com/grigio/network-monitor
+  [waitress]: https://github.com/Pylons/waitress
+  [flask]: https://github.com/pallets/flask
 
