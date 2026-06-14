@@ -95,7 +95,6 @@
 - [docker-py][docker-py] - Python API for the Docker ecosystem
 - [peewee][peewee] - Python ORM for sqllite, postgresql, mysql and cockroach DB
 - [records][records] - Make SQL queries and ingest results as python objects
-- [python-prompt-toolkit][python-prompt-toolkit] - For interactive python terminal prompt apps
 - [psutil][psutil] - Cross platform process and system monitoring
 - [watchdog][watchdog] - Monitor file-system events in python
 - [invoke][invoke] - Pythonic command execution and task management
