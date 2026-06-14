@@ -137,6 +137,7 @@
 - [py-junos-eznc][py-junos-eznc] - Junos automation library 
 - [boto3][boto3] - Automate AWS environments
 
+
 ## Machine Learning
 
 - [keras][keras]
@@ -205,6 +206,14 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [influxdb][influxdb]: A time-series database
 - [rrdtool][rrdtool]: A time-series database, which intelligently compresses data
 
+### General Tools - Services
+
+- [VictoriaMetrics][victoriametrics] - Drop-in replacement for Prometheus.  Highly scalable for large data sets
+- [perses][perses] - Forget Grafana, manage graph dashboards in git as code
+- [openobserve][openobserve] - Efficient log management with astounding data compression ratios to disk
+- [smallstep][smallstep]: CLI TLS Certificate Authority (CA)
+- [scylladb][scylladb]: Fast NoSQL DB
+
 ### Network Tools - Services
 
 - [caddy][caddy]: Go webserver / reverse proxy with auto-TLS certificate generation
@@ -212,7 +221,6 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [nsd][nsd]: DNS server in C
 - [coredns][coredns]: Golang DNS server that supports UDP, DoT, DoH, DoQUIC and more.
 - [unbound][unbound]: Popular DNS resolver library
-- [scylladb][scylladb]: Fast NoSQL DB
 - [httptap][httptap]: Get a terminal waterfall diagram of website responses
 - [Netbox][netbox]: Network source of truth; based on Django
 - [NIPAP][nipap]: Open-source IP address management (IPAM)
@@ -440,4 +448,8 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [network-monitor]: https://github.com/grigio/network-monitor
   [waitress]: https://github.com/Pylons/waitress
   [flask]: https://github.com/pallets/flask
+  [victoriametrics]: https://github.com/victoriametrics/VictoriaMetrics
+  [perses]: https://github.com/perses/perses
+  [openobserve]: https://github.com/openobserve/openobserve
+  [smallstep]: https://github.com/smallstep/certificates
 
