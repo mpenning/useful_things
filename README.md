@@ -209,7 +209,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 
 - [VictoriaMetrics][victoriametrics] - Drop-in replacement for Prometheus.  Highly scalable for large data sets
 - [perses][perses] - Forget Grafana, manage graph dashboards in git as code
-- [openobserve][openobserve] - Efficient log management with astounding data compression ratios to disk
+- [openobserve][openobserve] - Efficient log collection and management with up to 170x log storage compression ratios
 - [smallstep][smallstep]: CLI TLS Certificate Authority (CA)
 - [scylladb][scylladb]: Fast NoSQL DB
 
