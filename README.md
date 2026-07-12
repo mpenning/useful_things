@@ -22,11 +22,13 @@
 - [pss][pss]: Code-search tool written in python
 - [rust-analyzer][rust-analyzer]: Linter for rust projects
 - [rumdl][rumdl]: Markdown Linter
+- [Jujitsu][jujitsu]: A trendy alternative to git for DCVS; developed at Google.
 
 ## Languages / Toolkits
 
 - [OpenTofu][opentofu]: Open-source alternative to Terraform (which is now owned by IBM)
 - [Ansible][ansible]
+- [Deno][deno]: Security-focused Rust JavaScript run-time; memory-safe alternative to Node.js
 
 ### Profilers
 
@@ -42,6 +44,7 @@
 
 - [checkov][checkov]: Lint your Terraform, Dockerfiles and more
 - [ScoutSuite][ScoutSuite]: Multi-cloud security auditing
+- [Terminal AWS][taws]: Manage your AWS infrastructure in the terminal
 
 ### AI Toolkit
 
@@ -142,14 +145,15 @@
 ### Python: Network Automation
 
 - [fabric][fabric]:  Automate command execution on linux systems via SSH
+- [boto3][boto3]:  Automate AWS environments
 - [netmiko][netmiko]:  Automate command execution on routers / switches via SSH
 - [nornir][nornir]:  Network inventory and execution abstractions
 - [exabgp][exabgp]:  BGPd written in Python
 - [scrapli][scrapli]:  Automate command execution on routers / switches via SSH
 - [suzieq][suzieq]:  Canned network metrics collection
+- [stockpiler][stockpiler]: Brett Lykins' config backup tool.  Only supports Cisco and F5.
 - [meraki-cli][meraki-cli]:  Meraki CLI tool for interacting with the dashboard
 - [py-junos-eznc][py-junos-eznc]:  Junos automation library
-- [boto3][boto3]:  Automate AWS environments
 
 ## Machine Learning
 
@@ -206,6 +210,8 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [Win11Debloat][win11debloat]: Powershell script to disable Microsoft trackers and other Win11 bloatware.
 - [warp][warp]: Windows / Linux / MacOS Shell with embedded AI agent capabilities.
 - [wasmtime][wasmtime]: Run wasm binaries on linux
+- [gobackup][gobackup]: Server backup automation that uses anything from local storage to Amazon S3
+- [podman][podman]: Run Docker / OCI containers without root; replaces Docker for many workflows.
 
 ### Terminal utilites
 
@@ -234,6 +240,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [maltrail][maltrail]: Detect malicious network traffic
 - [secure_cartography][secure-cartography]: Use CDP / LLDP / SSH to compile accurate network diagrams
 - [influxdb][influxdb]: A time-series database
+- [FRrouting][frr]: The FRRouting Protocol Suite; open implementations of BGP, OSPF, EIGRP, PIM, etc... Use `vtysh` to manage the various routing daemons.
 
 ### Network Tools: Diagnostics and Testing
 
@@ -469,3 +476,10 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [yamlfmt]: https://github.com/google/yamlfmt
   [grpc]: https://github.com/grpc/grpc
   [rumdl]: https://github.com/rvben/rumdl
+  [taws]: https://github.com/huseyinbabal/taws
+  [deno]: https://github.com/denoland/deno
+  [gobackup]: https://github.com/gobackup/gobackup
+  [jujitsu]: https://github.com/jj-vcs/jj
+  [podman]: https://github.com/podman-container-tools/podman
+  [stockpiler]: https://github.com/lykinsbd/stockpiler
+  [frr]: https://github.com/frrouting/frr
