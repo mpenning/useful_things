@@ -76,7 +76,7 @@
 - [py2exe][py2exe]:  Compile Python to Windows binaries
 - [pyinstaller][pyinstaller]:  Compile to binary including required packages
 - [Nuitka][nuitka]:  Compile python code to a binary
-- [edgepython][edgepython]:  Compile python to a WASM binary to run python in browser / linux
+- [edgepython][edgepython]:  Compile a subset of python to a WASM binary to run "python" in browser / linux.  Caution, no STDLIB included.
 
 ### Python: General Usage
 
