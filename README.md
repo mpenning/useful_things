@@ -225,6 +225,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [gobackup][gobackup]: Server backup automation that uses anything from local storage to Amazon S3
 - [podman][podman]: Run Docker / OCI containers without root; replaces Docker for many workflows.
 - [stress-ng][stress-ng]: Load-test CPU, Memory, Threading, Disk I/O
+- [rustdesk][rustdesk]: An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
 - System Monitoring
   - [bottom][bottom]: Flexible, Rust-based terminal monitoring tool. Favorite invocation - `btm -bT`
   - [htop][htop]: Multi-core evolution of top
@@ -509,3 +510,4 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [htop]: https://github.com/htop-dev/htop
   [rustnet]: https://github.com/domcyrus/rustnet
   [procs]: https://github.com/dalance/procs
+  [rustdesk]: https://github.com/rustdesk/rustdesk
