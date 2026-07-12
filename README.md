@@ -225,6 +225,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [wasmtime][wasmtime]: Run wasm binaries on linux
 - [gobackup][gobackup]: Server backup automation that uses anything from local storage to Amazon S3
 - [podman][podman]: Run Docker / OCI containers without root; replaces Docker for many workflows.
+- [stress-ng][stress-ng]: Load-test CPU, Memory, Threading, Disk I/O
 
 ### Terminal utilites
 
@@ -498,3 +499,4 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [frr]: https://github.com/frrouting/frr
   [echarts]: https://github.com/apache/echarts
   [vuejs]: https://github.com/vuejs/core
+  [stress-ng]: https://github.com/ColinIanKing/stress-ng
