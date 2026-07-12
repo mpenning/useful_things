@@ -21,6 +21,7 @@
 - [complexipy][complexipy]: Rapidly find Python methods that are too complex
 - [pss][pss]: Code-search tool written in python
 - [rust-analyzer][rust-analyzer]: Linter for rust projects
+- [rumdl][rumdl]: Markdown Linter
 
 ## Languages / Toolkits
 
@@ -70,12 +71,11 @@
 
 - [codon][codon]:  Compile Python into static binaries
 - [PyO3][pyo3]:  Write Python modules in rust, or embed Python in a rust binary
-- [Cython][Cython]:  Accelerate Python with C
+- [Cython][cython]:  Accelerate Python with C
 - [py2many][py2many]:  A python transpiler (i.e. convert Python to Rust, Go, C++, etc...)
 - [py2exe][py2exe]:  Compile Python to Windows binaries
 - [pyinstaller][pyinstaller]:  Compile to binary including required packages
 - [Nuitka][nuitka]:  Compile python code to a binary
-- [Cython][Cython]:  CPython compiler
 - [edgepython][edgepython]:  Compile python to a WASM binary to run python in browser / linux
 
 ### Python: General Usage
@@ -127,19 +127,17 @@
 - [transitions][transitions]: Object-oriented pythonic State Machine
 - [dominate][dominate]: Write HTML with python
 - [matplotlib][matplotlib]: Build graphs with Python
-- [seaborn][seaborn]: Build statistical graphs with Python
 - [PyGithub][PyGithub]: GitHub v3 API python library
-- [GitPython][GitPython]: Python API for git repositories
 - [atlassian-python-api][atlassian-python-api]: REST API for Atlassian products (i.e. Jira, Confluence)
 - [landslide][landslide]: Markdown and Python-based slide deck library
 - Time Utilities (mostly useless after python stdlib introduced `zoneinfo`)
   - [whenever][whenever]: Time-handling replacement for Python datetime and some [Arrow][arrow] use-cases
   - [Arrow][arrow]: Flexible Python time-handling
 - Cron / Durable Execution
-- [absurd][absurd]: Durable execution engine for reliable workflows / CICD; written by Armin Ronacher.
-- [croniter][croniter]: Parses cron schedules to iterate over datetime objects.
-- [APScheduler][apscheduler]: Python Task scheduling library
-- [rocketry][rocketry]: Pythonic scheduling and cron-like recur using python decorators
+  - [absurd][absurd]: Durable execution engine for reliable workflows / CICD; written by Armin Ronacher.
+  - [croniter][croniter]: Parses cron schedules to iterate over datetime objects.
+  - [APScheduler][apscheduler]: Python Task scheduling library
+  - [rocketry][rocketry]: Pythonic scheduling and cron-like recur using python decorators
 
 ### Python: Network Automation
 
@@ -161,9 +159,6 @@
 - [textblob][textblob]: Text processing and sentiment analysis
 - [MLAlgorithms][MLAlgorithms]: Clean Machine Learning examples
 
-## Go Language
-
-- [delve][delve]: Go debugger; also see the [delve youtube demo](https://www.youtube.com/watch?v=a1SneuI65O0)
 
 ## Rust Language
 
@@ -188,6 +183,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 
 - [go-charts][go-charts]: Go charts library
 - [plot][plot]: A repository for plotting and visualizing data
+- [delve][delve]: Go debugger; also see the [delve youtube demo](https://www.youtube.com/watch?v=a1SneuI65O0)
 
 ## Info
 
@@ -200,7 +196,6 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [zellij][zellij]: A rust terminal multiplexer
 - [difftastic][difftastic]: A text file differ that understands many programming languages. Diffs are intelligent based on the language in the file.
 - [taskwarrior][taskwarrior]: A task-list manager with a useful CLI
-- [yamlfix][yamlfix]: YAML formatter and fixer
 - [just][just]: `just` is like `make`, but without the `Makefile` syntax warts
 - [sd][sd]: Find and replace simplified
 - [ripgrep][ripgrep]: Recursive grep through directories
@@ -237,7 +232,6 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [NIPAP][nipap]: Open-source IP address management (IPAM)
 - [fail2ban][fail2ban]: Monitor and black-hole repetitive attacks on your Linux server
 - [maltrail][maltrail]: Detect malicious network traffic
-- [RustScan][RustScan]: Port-scanner; like `nmap` but in Rust
 - [secure_cartography][secure-cartography]: Use CDP / LLDP / SSH to compile accurate network diagrams
 - [influxdb][influxdb]: A time-series database
 
@@ -323,7 +317,6 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [pyo3]: https://github.com/PyO3/pyo3
   [polars]: https://github.com/pola-rs/polars
   [matplotlib]: https://github.com/matplotlib/matplotlib
-  [seaborn]: https://github.com/mwaskom/seaborn
   [py-spy]: https://github.com/benfred/py-spy
   [pyinstaller]: https://github.com/pyinstaller/pyinstaller
   [zizmor]: https://github.com/zizmorcore/zizmor
@@ -334,11 +327,9 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [pre-commit]: https://github.com/pre-commit/pre-commit
   [rust-analyzer]: https://github.com/rust-lang/rust-analyzer
   [nuitka]: https://github.com/Nuitka/Nuitka
-  [nuitka]: https://github.com/Nuitka/Nuitka
   [peewee]: https://github.com/coleifer/peewee
   [psutil]: https://github.com/giampaolo/psutil
   [MLAlgorithms]: https://github.com/rushter/MLAlgorithms
-  [Cython]: https://github.com/cython/cython
   [python-prompt-toolkit]: https://github.com/prompt-toolkit/python-prompt-toolkit
   [Text-Blob]: https://github.com/sloria/TextBlob
   [fuzzywuzzy]: https://github.com/seatgeek/fuzzywuzzy
@@ -351,11 +342,9 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [docker-py]: https://github.com/docker/docker-py
   [watchdog]: https://github.com/gorakhargosh/watchdog
   [trio]: https://github.com/python-trio/trio
-  [transitions]: https://github.com/pytransitions/transitions
   [pywinauto]: https://github.com/pywinauto/pywinauto
   [attrs]: https://github.com/python-attrs/attrs
   [pyjwt]: https://github.com/jpadilla/pyjwt
-  [GitPython]: https://github.com/gitpython-developers/GitPython
   [yamllint]: https://github.com/adrienverge/yamllint
   [yamlfix]: https://github.com/lyz-code/yamlfix
   [pudb]: https://github.com/inducer/pudb
@@ -409,7 +398,6 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [just]: https://github.com/casey/just
   [netbox]: https://github.com/netbox-community/netbox
   [nipap]: https://github.com/SpriteLink/NIPAP
-  [yamlfix]: https://github.com/lyz-code/yamlfix
   [sd]: https://github.com/chmln/sd
   [ripgrep]: https://github.com/BurntSushi/ripgrep
   [fail2ban]: https://github.com/fail2ban/fail2ban
@@ -443,9 +431,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [tock]: https://github.com/tock/tock
   [uv]: https://github.com/astral-sh/uv
   [ty]: https://github.com/astral-sh/ty
-  [RustScan]: https://github.com/bee-san/RustScan
   [bottom]: https://github.com/ClementTsang/bottom
-  [difftastic]: https://github.com/Wilfred/difftastic/
   [zellij]: https://github.com/zellij-org/zellij
   [reveal.js]: https://github.com/hakimel/reveal.js
   [landslide]: https://github.com/adamzap/landslide
@@ -471,7 +457,6 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [perses]: https://github.com/perses/perses
   [openobserve]: https://github.com/openobserve/openobserve
   [smallstep]: https://github.com/smallstep/certificates
-  [iperf3]: https://github.com/esnet/iperf
   [librenms]: https://github.com/librenms/librenms
   [wasmtime]: https://github.com/bytecodealliance/wasmtime
   [edgepython]: https://github.com/dylan-sutton-chavez/edge-python
@@ -483,3 +468,4 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [ansible]: https://github.com/ansible/ansible
   [yamlfmt]: https://github.com/google/yamlfmt
   [grpc]: https://github.com/grpc/grpc
+  [rumdl]: https://github.com/rvben/rumdl
