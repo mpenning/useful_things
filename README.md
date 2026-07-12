@@ -191,11 +191,10 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [anyhow][anyhow]:  Rust Application error handling
 - [thiserror][thiserror]:  Rust Application error handling
 
-
 ## JavaScript / CSS / Web
 
-  - [ECharts][echarts]: Vue-based charting library
-  - [Vue][vuejs]: Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web. 
+- [ECharts][echarts]: Vue-based charting library
+- [Vue][vuejs]: Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
 
 ## Go Language
 
@@ -217,7 +216,6 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [just][just]: `just` is like `make`, but without the `Makefile` syntax warts
 - [sd][sd]: Find and replace simplified
 - [ripgrep][ripgrep]: Recursive grep through directories
-- [bottom][bottom]: Terminal-based resource monitor (executable named `btm`)
 - [RustScan][RustScan]: A fast port-scanner in Rust (can replace `nmap` for some tasks)
 - [reveal.js][reveal.js]: HTML and JS-based slide deck
 - [starship][starship]: Dynamic rust-powered shell prompts with meaningful info
@@ -227,6 +225,12 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [gobackup][gobackup]: Server backup automation that uses anything from local storage to Amazon S3
 - [podman][podman]: Run Docker / OCI containers without root; replaces Docker for many workflows.
 - [stress-ng][stress-ng]: Load-test CPU, Memory, Threading, Disk I/O
+- System Monitoring
+  - [bottom][bottom]: Flexible, Rust-based terminal monitoring tool. Favorite invocation - `btm -bT`
+  - [htop][htop]: Multi-core evolution of top
+  - [procs][procs]: List processes, rust replacement for `ps`
+  - [rustnet-monitor][rustnet]: Per-process network monitoring for your terminal: live TCP, UDP, and QUIC connections with deep packet inspection, sandboxed by default.
+  - [trippy][trippy]: Traceroute / [mtr][mtr] written in Rust
 
 ### Terminal utilites
 
@@ -502,3 +506,6 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [vuejs]: https://github.com/vuejs/core
   [stress-ng]: https://github.com/ColinIanKing/stress-ng
   [ruff]: https://github.com/astral-sh/ruff
+  [htop]: https://github.com/htop-dev/htop
+  [rustnet]: https://github.com/domcyrus/rustnet
+  [procs]: https://github.com/dalance/procs
