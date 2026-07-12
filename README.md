@@ -12,7 +12,7 @@
 - [pudb][pudb]: Full-screen terminal Python debugger
 - [pdoc][pdoc]: Documentation system for moderate-sized python projects
 - [ALE][ale]: Add IDE features to `vim` and `neovim`
-- [Neovide][neovide]: Enhanced neovim GUI with a focus on vim as an IDE 
+- [Neovide][neovide]: Enhanced neovim GUI with a focus on vim as an IDE
 - [nvim-treesitter][nvim-treesitter]: Parser and auto-complettion for neovim
 - [YouCompleteMe][youcompleteme]: Auto-completion for ALE
 - [PySnooper][pysnooper]: Debug python with decorators
@@ -48,25 +48,25 @@
 
 ## Python Language
 
-### Python:  Code Infrastructure
+### Python: Code Infrastructure
 
-- [click][click]:  Flexible CLI arguments library as an improvement over `argparse`
-- [attrs][attrs]:  Python classes without boilerplate
-- [traitlets][traitlets]:  Python classes with strong typing and attribute observer operations.
+- [click][click]: Flexible CLI arguments library as an improvement over `argparse`
+- [attrs][attrs]: Python classes without boilerplate
+- [traitlets][traitlets]: Python classes with strong typing and attribute observer operations.
 - [typeguard][typeguard]: Python runtime type checker; needs a maintainer after v4.0.0
-- [pydantic][pydantic]:  Python data validation inside classes
-- [adaptix][adaptix]:  Simplified Python data validation and conversion between sqlite, dict, dataclasses
+- [pydantic][pydantic]: Python data validation inside classes
+- [adaptix][adaptix]: Simplified Python data validation and conversion between sqlite, dict, dataclasses
 - [gRPC][grpc]: Fast, typed Python message passing library
-- [msgspec][msgspec]:  Fast Python object serialization / deserialization with type checking; partially implemented in C.  Data is supported in json, yaml, and [MessagePack][msgpack-py], and toml.
-- [msgpack][msgpack-py]:  MessagePack for Python is an efficient binary serialization format. It lets you exchange data among multiple formats.  See [msgspec][msgspec] for more detail.
-- [marshmallow][marshmallow]:  Implement Python object serialization an de-serialization with type validation; this library is oriented around Python objects as dicts.
-- [transitions][transitions]:  Python Finite State Machine
-- [loguru][loguru]:  Delgan's excellent Python logging framework
-- [trio][trio]:  Python async and concurrency library
-- [flask][flask]:  Simple python web-development framework
-- [waitress][waitress]:  A production-grade WSGI web server (useful to serve flask apps in production)
+- [msgspec][msgspec]: Fast Python object serialization / deserialization with type checking; partially implemented in C. Data is supported in json, yaml, and [MessagePack][msgpack-py], and toml.
+- [msgpack][msgpack-py]: MessagePack for Python is an efficient binary serialization format. It lets you exchange data among multiple formats. See [msgspec][msgspec] for more detail.
+- [marshmallow][marshmallow]: Implement Python object serialization an de-serialization with type validation; this library is oriented around Python objects as dicts.
+- [transitions][transitions]: Python Finite State Machine
+- [loguru][loguru]: Delgan's excellent Python logging framework
+- [trio][trio]: Python async and concurrency library
+- [flask][flask]: Simple python web-development framework
+- [waitress][waitress]: A production-grade WSGI web server (useful to serve flask apps in production)
 
-### Python:  Compilers / Transpilers
+### Python: Compilers / Transpilers
 
 - [codon][codon]:  Compile Python into static binaries
 - [PyO3][pyo3]:  Write Python modules in rust, or embed Python in a rust binary
@@ -78,7 +78,7 @@
 - [Cython][Cython]:  CPython compiler
 - [edgepython][edgepython]:  Compile python to a WASM binary to run python in browser / linux
 
-### Python:  General Usage
+### Python: General Usage
 
 - [uv][uv]: A rust replacement for `pip`
 - [pre-commit][pre-commit]: Add hooks to git commit actions
@@ -89,35 +89,35 @@
 - [diagrams][diagrams]: Diagrams as Python code
 - [mermaid-py][mermaid-py]: Python interface to `mermaid-js` diagramming library
 - [jupyter-notebook][jupyter_notebook]: Dynamically analyze python code as a savable notebook
-- [GitPython][gitpython]:  Manage git repositories with python
-- [rich][rich]:  Library for terminal colorization
-- [scrapy][scrapy]:  Web scraping framework
-- [orjson][orjson]:  Fast and correct json parsing library
-- [pyyaml][pyyaml]:  Pythonic yaml handling
-- [ruamel.yaml][ruamel-yaml]:  Pythonic yaml handling
-- [ptftpd][ptftpd]:  Python TFTPd and PXE tool suite
-- [pyjwt][pyjwt]:  Python implementation of JWT (JSON Web Token)
-- [python-saml][python-saml]:  Python SAML toolkit
-- [dnspython][dnspython]:  Python interface to DNS queries
-- [splunk-sdk-python][splunk-sdk-python]:  Splunk SDK for Python
-- [hvac][hvac]:  Python interface to Hashicorp Vault
-- [pyshark][pyshark]:  Python interface to `tshark` / Wireshark in the Terminal
-- [docker-py][docker-py]:  Python API for the Docker ecosystem
-- [peewee][peewee]:  Python ORM for sqllite, postgresql, mysql and cockroach DB
-- [records][records]:  Make SQL queries and ingest results as python objects
-- [psutil][psutil]:  Cross platform process and system monitoring
-- [watchdog][watchdog]:  Monitor file-system events in python
-- [invoke][invoke]:  Pythonic command execution and task management
-- [pandas][pandas]:  Pythonic data manipulation and statistical analysis library
-- [polars][polars]:  Python data manipulation and statistical analysis written in rust
-- [Seaborn][seaborn]:  Simple statistical graphing package
-- [plotly][plotly]:  Graphing and plotting library
-- [prophet][prophet]:  Facebook's canned time-series forcasting library
+- [GitPython][gitpython]: Manage git repositories with python
+- [rich][rich]: Library for terminal colorization
+- [scrapy][scrapy]: Web scraping framework
+- [orjson][orjson]: Fast and correct json parsing library
+- [pyyaml][pyyaml]: Pythonic yaml handling
+- [ruamel.yaml][ruamel-yaml]: Pythonic yaml handling
+- [ptftpd][ptftpd]: Python TFTPd and PXE tool suite
+- [pyjwt][pyjwt]: Python implementation of JWT (JSON Web Token)
+- [python-saml][python-saml]: Python SAML toolkit
+- [dnspython][dnspython]: Python interface to DNS queries
+- [splunk-sdk-python][splunk-sdk-python]: Splunk SDK for Python
+- [hvac][hvac]: Python interface to Hashicorp Vault
+- [pyshark][pyshark]: Python interface to `tshark` / Wireshark in the Terminal
+- [docker-py][docker-py]: Python API for the Docker ecosystem
+- [peewee][peewee]: Python ORM for sqllite, postgresql, mysql and cockroach DB
+- [records][records]: Make SQL queries and ingest results as python objects
+- [psutil][psutil]: Cross platform process and system monitoring
+- [watchdog][watchdog]: Monitor file-system events in python
+- [invoke][invoke]: Pythonic command execution and task management
+- [pandas][pandas]: Pythonic data manipulation and statistical analysis library
+- [polars][polars]: Python data manipulation and statistical analysis written in rust
+- [Seaborn][seaborn]: Simple statistical graphing package
+- [plotly][plotly]: Graphing and plotting library
+- [prophet][prophet]: Facebook's canned time-series forcasting library
 - [pysmb][pysmb]: Python SMB client
 - [pexpect][pexpect]: Pythonic Expect library
 - [pyparsing][pyparsing]: Popular python parsing library via PEG parser
 - [TextFSM][textfsm]: Stateful templated python text parsing and value extraction
-- [ntc-templates][ntc-templates]:  Templates to parse command output via [TextFSM][textfsm]
+- [ntc-templates][ntc-templates]: Templates to parse command output via [TextFSM][textfsm]
 - [fuzzywuzzy][fuzzywuzzy]: Fuzzy text matching
 - [rich][rich]: Command-line text formatting library
 - [python-prompt-toolkit][python_prompt_toolkit]: Build interactive Python command-line programs
@@ -132,18 +132,16 @@
 - [GitPython][GitPython]: Python API for git repositories
 - [atlassian-python-api][atlassian-python-api]: REST API for Atlassian products (i.e. Jira, Confluence)
 - [landslide][landslide]: Markdown and Python-based slide deck library
-
 - Time Utilities (mostly useless after python stdlib introduced `zoneinfo`)
-  - [whenever][whenever]:  Time-handling replacement for Python datetime and some [Arrow][arrow] use-cases
-  - [Arrow][arrow]:  Flexible Python time-handling
-
+  - [whenever][whenever]: Time-handling replacement for Python datetime and some [Arrow][arrow] use-cases
+  - [Arrow][arrow]: Flexible Python time-handling
 - Cron / Durable Execution
- -  [absurd][absurd]: Durable execution engine for reliable workflows / CICD; written by Armin Ronacher.
- -  [croniter][croniter]: Parses cron schedules to iterate over datetime objects. 
- -  [APScheduler][apscheduler]: Python Task scheduling library
- -  [rocketry][rocketry]: Pythonic scheduling and cron-like recur using python decorators
+- [absurd][absurd]: Durable execution engine for reliable workflows / CICD; written by Armin Ronacher.
+- [croniter][croniter]: Parses cron schedules to iterate over datetime objects.
+- [APScheduler][apscheduler]: Python Task scheduling library
+- [rocketry][rocketry]: Pythonic scheduling and cron-like recur using python decorators
 
-### Python:  Network Automation
+### Python: Network Automation
 
 - [fabric][fabric]:  Automate command execution on linux systems via SSH
 - [netmiko][netmiko]:  Automate command execution on routers / switches via SSH
@@ -152,20 +150,20 @@
 - [scrapli][scrapli]:  Automate command execution on routers / switches via SSH
 - [suzieq][suzieq]:  Canned network metrics collection
 - [meraki-cli][meraki-cli]:  Meraki CLI tool for interacting with the dashboard
-- [py-junos-eznc][py-junos-eznc]:  Junos automation library 
+- [py-junos-eznc][py-junos-eznc]:  Junos automation library
 - [boto3][boto3]:  Automate AWS environments
 
 ## Machine Learning
 
 - [keras][keras]
 - [scikit-learn][scikit-learn]
-- [langchain][langchain]:  Framework for building AI Agents
-- [textblob][textblob]:  Text processing and sentiment analysis
-- [MLAlgorithms][MLAlgorithms]:  Clean Machine Learning examples
+- [langchain][langchain]: Framework for building AI Agents
+- [textblob][textblob]: Text processing and sentiment analysis
+- [MLAlgorithms][MLAlgorithms]: Clean Machine Learning examples
 
 ## Go Language
 
-- [delve][delve]:  Go debugger; also see the [delve youtube demo](https://www.youtube.com/watch?v=a1SneuI65O0)
+- [delve][delve]: Go debugger; also see the [delve youtube demo](https://www.youtube.com/watch?v=a1SneuI65O0)
 
 ## Rust Language
 
@@ -184,7 +182,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 
 ### General libraries
 
-- [rexpect][rexpect]:  Rust expect library
+- [rexpect][rexpect]: Rust expect library
 
 ## Go Language
 
@@ -200,7 +198,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 ### General Use utilities
 
 - [zellij][zellij]: A rust terminal multiplexer
-- [difftastic][difftastic]: A text file differ that understands many programming languages.  Diffs are intelligent based on the language in the file.
+- [difftastic][difftastic]: A text file differ that understands many programming languages. Diffs are intelligent based on the language in the file.
 - [taskwarrior][taskwarrior]: A task-list manager with a useful CLI
 - [yamlfix][yamlfix]: YAML formatter and fixer
 - [just][just]: `just` is like `make`, but without the `Makefile` syntax warts
@@ -219,15 +217,15 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [asciienema][asciienema]: A terminal session recorder built with Rust
 - [obs-studio][obs-studio]: Record YouTube videos from your laptop
 
-### General Tools:  Services
+### General Tools: Services
 
-- [VictoriaMetrics][victoriametrics]:  Drop-in replacement for Prometheus.  Highly scalable for large data sets
-- [perses][perses]:  Forget Grafana, manage graph dashboards in git as code
-- [openobserve][openobserve]:  Efficient log collection and management with up to 170x log storage compression ratios
+- [VictoriaMetrics][victoriametrics]: Drop-in replacement for Prometheus. Highly scalable for large data sets
+- [perses][perses]: Forget Grafana, manage graph dashboards in git as code
+- [openobserve][openobserve]: Efficient log collection and management with up to 170x log storage compression ratios
 - [smallstep][smallstep]: CLI TLS Certificate Authority (CA)
 - [scylladb][scylladb]: Fast NoSQL DB
 
-### Network Tools:  Services
+### Network Tools: Services
 
 - [caddy][caddy]: Go webserver / reverse proxy with auto-TLS certificate generation
 - [frp][frp]: A Golang fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
@@ -240,47 +238,41 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [fail2ban][fail2ban]: Monitor and black-hole repetitive attacks on your Linux server
 - [maltrail][maltrail]: Detect malicious network traffic
 - [RustScan][RustScan]: Port-scanner; like `nmap` but in Rust
-- [secure_cartography][secure-cartography]: Use CDP / LLDP / SSH to compile accurate network diagrams 
+- [secure_cartography][secure-cartography]: Use CDP / LLDP / SSH to compile accurate network diagrams
 - [influxdb][influxdb]: A time-series database
 
-
-### Network Tools:  Diagnostics and Testing
+### Network Tools: Diagnostics and Testing
 
 - Ping / Traceroute
- -  [trippy][trippy]: Traceroute / [mtr][mtr] written in Rust
- -  [mtr][mtr]: Traceroute / mtr written in Rust
- -  [latency-monitor][latency-monitor]: One or two-way latency measurements
- -  [gping][gping]: Graph ping response times (written in Rust) in the terminal window
- -  [pingtracer][pingtracer]: Progressive ping logger written for MS Windows; discovers all hops in the path and pings them
-
+- [trippy][trippy]: Traceroute / [mtr][mtr] written in Rust
+- [mtr][mtr]: Traceroute / mtr written in Rust
+- [latency-monitor][latency-monitor]: One or two-way latency measurements
+- [gping][gping]: Graph ping response times (written in Rust) in the terminal window
+- [pingtracer][pingtracer]: Progressive ping logger written for MS Windows; discovers all hops in the path and pings them
 - Proxies
- -  [mitmproxy][mitmproxy]: An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
- -  [go-mitmproxy][go-mitmproxy]: A port of [mitmproxy][mitmproxy] to Go
-
+- [mitmproxy][mitmproxy]: An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
+- [go-mitmproxy][go-mitmproxy]: A port of [mitmproxy][mitmproxy] to Go
 - Sniffers
- -  [sniffnet][sniffnet]: Cross-platform network traffic capture with a nice GUI (Windows / MacOS / Linux)
-
+- [sniffnet][sniffnet]: Cross-platform network traffic capture with a nice GUI (Windows / MacOS / Linux)
 - Monitoring / NMS
- -  [librenms][librenms]: One stop shop for monitoring Cisco / Arista / etc...
- -  [Rust-Ping][rust-ping]: Open source NMS written in Rust
- -  [network-monitor][network-monitor]: Open source NMS written in Rust
- -  [nethogs][nethogs]: Detect which linux processes are consuming the most bandwidth
- -  [bandwhich][bandwhich]: Detect which linux processes are consuming the most bandwidth (written in Rust)
- -  [sniffer][sniffer]: Detect which linux / Windows processes are consuming the most bandwidth (written in Go)
- -  [rrdtool][rrdtool]: A time-series database, which intelligently compresses data
-
+- [librenms][librenms]: One stop shop for monitoring Cisco / Arista / etc...
+- [Rust-Ping][rust-ping]: Open source NMS written in Rust
+- [network-monitor][network-monitor]: Open source NMS written in Rust
+- [nethogs][nethogs]: Detect which linux processes are consuming the most bandwidth
+- [bandwhich][bandwhich]: Detect which linux processes are consuming the most bandwidth (written in Rust)
+- [sniffer][sniffer]: Detect which linux / Windows processes are consuming the most bandwidth (written in Go)
+- [rrdtool][rrdtool]: A time-series database, which intelligently compresses data
 - Network Emulation
- -  [containerlab][containerlab]: Build arbitrary topologies of your favorite Cisco / Arista / Juniper / Nokia Operating System as a Docker container
- -  [vrnetlab][vrnetlab]: Tool to convert router images to a Docker container
-
+- [containerlab][containerlab]: Build arbitrary topologies of your favorite Cisco / Arista / Juniper / Nokia Operating System as a Docker container
+- [vrnetlab][vrnetlab]: Tool to convert router images to a Docker container
 - Network Testing
- -  [flent][flent]: A network performance test client, which requires [fping][fping] (client-side), [netperf][netperf] (server-side) or [iperf2][iperf2] (server-side)
- -  [iperf2][iperf2]:  Classic network test tool
- -  [iperf3][iperf3]:  Next-gen of iperf
- -  [crusader][crusader]: Rust-based network testing and results graphing
- -  [goben][goben]: Measure TCP / UDP throughput between hosts
- -  [TRex][trex]: Cisco's flexible Network test tool
- -  [netperf][netperf]: A network performance test server, written by Hewlett Packard.  It's best to install the Debian package instead of trying to compile [netperf][netperf]
+- [flent][flent]: A network performance test client, which requires [fping][fping] (client-side), [netperf][netperf] (server-side) or [iperf2][iperf2] (server-side)
+- [iperf2][iperf2]: Classic network test tool
+- [iperf3][iperf3]: Next-gen of iperf
+- [crusader][crusader]: Rust-based network testing and results graphing
+- [goben][goben]: Measure TCP / UDP throughput between hosts
+- [TRex][trex]: Cisco's flexible Network test tool
+- [netperf][netperf]: A network performance test server, written by Hewlett Packard. It's best to install the Debian package instead of trying to compile [netperf][netperf]
 
 ### Embedded Operating Systems
 
@@ -416,7 +408,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [rrdtool]: https://github.com/oetiker/rrdtool-1.x
   [just]: https://github.com/casey/just
   [netbox]: https://github.com/netbox-community/netbox
-  [nipap]: https://github.com/SpriteLink/NIPAP 
+  [nipap]: https://github.com/SpriteLink/NIPAP
   [yamlfix]: https://github.com/lyz-code/yamlfix
   [sd]: https://github.com/chmln/sd
   [ripgrep]: https://github.com/BurntSushi/ripgrep
@@ -491,4 +483,3 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [ansible]: https://github.com/ansible/ansible
   [yamlfmt]: https://github.com/google/yamlfmt
   [grpc]: https://github.com/grpc/grpc
-
