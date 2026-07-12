@@ -10,6 +10,7 @@
   - [pyupgrade][pyupgrade]: Automatically upgrade python syntax to baseline against specific python versions
   - [bandit][bandit]: Find security problems in python code
   - [complexipy][complexipy]: Rapidly find Python methods that are too complex
+  - [ruff][ruff]: Lint python quickly
   - [pss][pss]: Code-search tool written in python
 - Python Debuggers / Profilers
   - [pudb][pudb]: Full-screen terminal Python debugger
@@ -500,3 +501,4 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [echarts]: https://github.com/apache/echarts
   [vuejs]: https://github.com/vuejs/core
   [stress-ng]: https://github.com/ColinIanKing/stress-ng
+  [ruff]: https://github.com/astral-sh/ruff
