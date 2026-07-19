@@ -218,7 +218,6 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [difftastic][difftastic]: A text file differ that understands many programming languages. Diffs are intelligent based on the language in the file.
 - [taskwarrior][taskwarrior]: A task-list manager with a useful CLI
 - [just][just]: `just` is like `make`, but without the `Makefile` syntax warts
-- [sd][sd]: Find and replace simplified
 - [ripgrep][ripgrep]: Recursive grep through directories
 - [sd][sd]: A simpler sed-like command, implemented in Rust
 - [RustScan][RustScan]: A fast port-scanner in Rust (can replace `nmap` for some tasks)
@@ -522,7 +521,6 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [rustloguru]: https://github.com/j-raghavan/rust-loguru
   [inject-python]: https://github.com/ivankorobkov/python-inject
   [goph]: https://github.com/melbahja/goph
-  [sd]: https://github.com/chmln/sd
   [hickory-dns]: https://github.com/hickory-dns/hickory-dns
   [lettre]: https://github.com/lettre/lettre
   [sniffglue]: https://github.com/kpcyrd/sniffglue
