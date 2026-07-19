@@ -12,6 +12,7 @@
   - [complexipy][complexipy]: Rapidly find Python methods that are too complex
   - [ruff][ruff]: Lint python quickly
   - [pss][pss]: Code-search tool written in python
+  - [python-inject][inject-python]: Inject python dependencies into pytests
 - Python Debuggers / Profilers
   - [pudb][pudb]: Full-screen terminal Python debugger
   - [pdoc][pdoc]: Documentation system for moderate-sized python projects
@@ -179,6 +180,8 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 ### General libraries
 
 - [rexpect][rexpect]: Rust expect library
+- [textfsm-rust][textfsm-rust]: Rust port of Google's TextFSM Python library
+- [rust-loguru][rustloguru]: Rust logging library
 
 ### CLI Argument parsing
 
@@ -201,6 +204,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [go-charts][go-charts]: Go charts library
 - [plot][plot]: A repository for plotting and visualizing data
 - [delve][delve]: Go debugger; also see the [delve youtube demo](https://www.youtube.com/watch?v=a1SneuI65O0)
+- [goph][goph]: A Go SSH client
 
 ## Info
 
@@ -216,6 +220,7 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [just][just]: `just` is like `make`, but without the `Makefile` syntax warts
 - [sd][sd]: Find and replace simplified
 - [ripgrep][ripgrep]: Recursive grep through directories
+- [sd][sd]: A simpler sed-like command, implemented in Rust
 - [RustScan][RustScan]: A fast port-scanner in Rust (can replace `nmap` for some tasks)
 - [reveal.js][reveal.js]: HTML and JS-based slide deck
 - [starship][starship]: Dynamic rust-powered shell prompts with meaningful info
@@ -226,6 +231,9 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
 - [podman][podman]: Run Docker / OCI containers without root; replaces Docker for many workflows.
 - [stress-ng][stress-ng]: Load-test CPU, Memory, Threading, Disk I/O
 - [rustdesk][rustdesk]: An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
+- [hickory-dns][hickory-dns]: A rust DNS client, server and resolver
+- [lettre][lettre]: A rust SMTP mailer
+- [sniffglue][sniffglue]: A rust packet sniffer; utilizes all CPU cores.  The user interface isn't great; does not use standard pcap filltering args.
 - System Monitoring
   - [bottom][bottom]: Flexible, Rust-based terminal monitoring tool. Favorite invocation - `btm -bT`
   - [htop][htop]: Multi-core evolution of top
@@ -511,3 +519,11 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [rustnet]: https://github.com/domcyrus/rustnet
   [procs]: https://github.com/dalance/procs
   [rustdesk]: https://github.com/rustdesk/rustdesk
+  [rustloguru]: https://github.com/j-raghavan/rust-loguru
+  [inject-python]: https://github.com/ivankorobkov/python-inject
+  [goph]: https://github.com/melbahja/goph
+  [sd]: https://github.com/chmln/sd
+  [hickory-dns]: https://github.com/hickory-dns/hickory-dns
+  [lettre]: https://github.com/lettre/lettre
+  [sniffglue]: https://github.com/kpcyrd/sniffglue
+  [textfsm-rust]: https://github.com/joshbenz/textfsm-rust
