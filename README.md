@@ -165,7 +165,7 @@
 - [meraki-cli][meraki-cli]:  Meraki CLI tool for interacting with the dashboard
 - [py-junos-eznc][py-junos-eznc]:  Junos automation library
 
-## Machine Learning
+### Machine Learning
 
 - [keras][keras]
 - [scikit-learn][scikit-learn]
@@ -175,13 +175,17 @@
 
 ## Rust Language
 
-The best single-source of rust examples is [Rust By Example][rust-by-example].
+- Tutorials
+  - [Rust for the Impatient][rustfortheimpatient]:  10-minute YouTube video
+  - [Rust in half an hour][rustin30minutes]
+  - The best single-source of rust examples is [Rust By Example][rust-by-example].
 
-### General libraries
+### General Rust libraries
 
 - [rexpect][rexpect]: Rust expect library
 - [textfsm-rust][textfsm-rust]: Rust port of Google's TextFSM Python library
 - [rust-loguru][rustloguru]: Rust logging library
+- [rustix][rustix]: Replace OS system calls with memory-safe alternatives; no libc required.
 
 ### CLI Argument parsing
 
@@ -525,3 +529,6 @@ The best single-source of rust examples is [Rust By Example][rust-by-example].
   [lettre]: https://github.com/lettre/lettre
   [sniffglue]: https://github.com/kpcyrd/sniffglue
   [textfsm-rust]: https://github.com/joshbenz/textfsm-rust
+  [rustin30minutes]: https://fasterthanli.me/articles/a-half-hour-to-learn-rust
+  [rustix]: https://github.com/bytecodealliance/rustix
+  [rustfortheimpatient]: https://youtu.be/br3GIIQeefY?is=bR4Q50xZ8Mx-kvOo
