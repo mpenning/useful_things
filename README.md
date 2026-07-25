@@ -46,7 +46,7 @@
 
 ## Languages / Toolkits
 
-- [OpenTofu][opentofu]: Open-source alternative to Terraform (which is now owned by IBM)
+- [OpenTofu][opentofu]: Open-source alternative to Terraform
 - [Ansible][ansible]
 - [Deno][deno]: Security-focused Rust JavaScript run-time; memory-safe alternative to Node.js
 
@@ -176,7 +176,7 @@
 ## Rust Language
 
 - Tutorials
-  - [Rust for the Impatient][rustfortheimpatient]:  10-minute YouTube video
+  - [Rust for the Impatient][rustfortheimpatient]: 10-minute YouTube video
   - [Rust in half an hour][rustin30minutes]
   - The best single-source of rust examples is [Rust By Example][rust-by-example].
 
@@ -185,7 +185,9 @@
 - [rexpect][rexpect]: Rust expect library
 - [textfsm-rust][textfsm-rust]: Rust port of Google's TextFSM Python library
 - [rust-loguru][rustloguru]: Rust logging library
-- [rustix][rustix]: Replace OS system calls with memory-safe alternatives; no libc required.
+- [rustix][rustix]: Replace OS system calls with memory-safe alternatives; no libc binding required.
+- GUI Frameworks
+  - [slint][slint]: Build cross-platform user interfaces with clients for Rust, C++, JavaScript and Python; some applications require a paid license.
 
 ### CLI Argument parsing
 
@@ -219,6 +221,8 @@
 ### General Use utilities
 
 - [zellij][zellij]: A rust terminal multiplexer
+- [evil-helix][evilhelix]: The Helix editor with vim bindings.
+- [atuin][atuin]: Sync all shell history across sessions and optionally store encrypted in the cloud
 - [difftastic][difftastic]: A text file differ that understands many programming languages. Diffs are intelligent based on the language in the file.
 - [taskwarrior][taskwarrior]: A task-list manager with a useful CLI
 - [just][just]: `just` is like `make`, but without the `Makefile` syntax warts
@@ -532,3 +536,6 @@
   [rustin30minutes]: https://fasterthanli.me/articles/a-half-hour-to-learn-rust
   [rustix]: https://github.com/bytecodealliance/rustix
   [rustfortheimpatient]: https://youtu.be/br3GIIQeefY?is=bR4Q50xZ8Mx-kvOo
+  [slint]: https://github.com/slint-ui/slint
+  [evilhelix]: https://github.com/usagi-flow/evil-helix
+  [atuin]: https://github.com/atuinsh/atuin
