@@ -185,20 +185,20 @@
 - [rexpect][rexpect]: Rust expect library
 - [textfsm-rust][textfsm-rust]: Rust port of Google's TextFSM Python library
 - [rust-loguru][rustloguru]: Rust logging library
+- [chrono][chrono]: Rust date and time handling
+- [parking_lot][parking_lot]: Efficient Rust synchronozation primatives - `Mutex`, `RwLock`, etc... these are faster than stdlib equivalents
+- [colored][colored]: Text color support
+- [hickory-dns][hickory-dns]: A Rust DNS client, server and resolver
 - [rustix][rustix]: Replace OS system calls with memory-safe alternatives; no libc binding required.
 - GUI Frameworks
   - [slint][slint]: Build cross-platform user interfaces with clients for Rust, C++, JavaScript and Python; some applications require a paid license.
-
-### CLI Argument parsing
-
-- [argh][argh]:  Simplified Rust CLI arg parsing
-- [clap][clap]:  Full-featured Rust CLI arg parsing; can be complex and often deprecates previously-used syntax
-
-### Error Handling
-
-- [snafu][snafu]:  Rust error handling
-- [anyhow][anyhow]:  Rust Application error handling
-- [thiserror][thiserror]:  Rust Application error handling
+- CLI Arguments
+  - [clap][clap]: Full-featured Rust CLI arg parsing
+  - [argh][argh]: Simplified Rust CLI arg parsing
+- Error Handling
+  - [snafu][snafu]: Rust error handling
+  - [anyhow][anyhow]: Rust Application error handling
+  - [thiserror][thiserror]: Rust Application error handling
 
 ## JavaScript / CSS / Web
 
@@ -238,9 +238,8 @@
 - [podman][podman]: Run Docker / OCI containers without root; replaces Docker for many workflows.
 - [stress-ng][stress-ng]: Load-test CPU, Memory, Threading, Disk I/O
 - [rustdesk][rustdesk]: An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
-- [hickory-dns][hickory-dns]: A rust DNS client, server and resolver
 - [lettre][lettre]: A rust SMTP mailer
-- [sniffglue][sniffglue]: A rust packet sniffer; utilizes all CPU cores.  The user interface isn't great; does not use standard pcap filltering args.
+- [sniffglue][sniffglue]: A rust packet sniffer; utilizes all CPU cores. The user interface isn't great; does not use standard pcap filltering args.
 - System Monitoring
   - [bottom][bottom]: Flexible, Rust-based terminal monitoring tool. Favorite invocation - `btm -bT`
   - [htop][htop]: Multi-core evolution of top
@@ -539,3 +538,6 @@
   [slint]: https://github.com/slint-ui/slint
   [evilhelix]: https://github.com/usagi-flow/evil-helix
   [atuin]: https://github.com/atuinsh/atuin
+  [chrono]: https://github.com/chronotope/chrono
+  [parking_lot]: https://github.com/Amanieu/parking_lot
+  [colored]: https://github.com/colored-rs/colored
