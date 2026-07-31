@@ -188,6 +188,7 @@
 - [rust-loguru][rustloguru]: Rust logging library
 - [chrono][chrono]: Rust date and time handling
 - [rustyline][rustyline]: Rust replacement for linux `readline`
+- [pest parser][pestparser]: A popular Rust parser
 - [parking_lot][parking_lot]: Efficient Rust synchronozation primatives - `Mutex`, `RwLock`, etc... these are faster than stdlib equivalents
 - [colored][colored]: Text color support
 - [hickory-dns][hickory-dns]: A Rust DNS client, server and resolver
@@ -547,3 +548,4 @@
   [comprehensive_rust]: https://google.github.io/comprehensive-rust/
   [rustyline]: https://github.com/kkawakam/rustyline
   [rustpbx]: https://github.com/restsend/rustpbx
+  [pestparser]: https://github.com/pest-parser/pest
