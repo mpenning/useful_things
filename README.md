@@ -238,6 +238,7 @@
 - [wasmtime][wasmtime]: Run wasm binaries on linux
 - [gobackup][gobackup]: Server backup automation that uses anything from local storage to Amazon S3
 - [podman][podman]: Run Docker / OCI containers without root; replaces Docker for many workflows.
+- [rustpbx][rustpbx]: Rust PBX / Session Border Controller
 - [stress-ng][stress-ng]: Load-test CPU, Memory, Threading, Disk I/O
 - [rustdesk][rustdesk]: An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
 - [lettre][lettre]: A rust SMTP mailer
@@ -545,3 +546,4 @@
   [colored]: https://github.com/colored-rs/colored
   [comprehensive_rust]: https://google.github.io/comprehensive-rust/
   [rustyline]: https://github.com/kkawakam/rustyline
+  [rustpbx]: https://github.com/restsend/rustpbx
