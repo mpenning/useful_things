@@ -176,6 +176,7 @@
 ## Rust Language
 
 - Tutorials
+  - [Comprehensive Rust][comprehensive_rust]: Google's Rust Tutorial
   - [Rust for the Impatient][rustfortheimpatient]: 10-minute YouTube video
   - [Rust in half an hour][rustin30minutes]
   - The best single-source of rust examples is [Rust By Example][rust-by-example].
@@ -541,3 +542,4 @@
   [chrono]: https://github.com/chronotope/chrono
   [parking_lot]: https://github.com/Amanieu/parking_lot
   [colored]: https://github.com/colored-rs/colored
+  [comprehensive_rust]: https://google.github.io/comprehensive-rust/
