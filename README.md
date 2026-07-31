@@ -187,6 +187,7 @@
 - [textfsm-rust][textfsm-rust]: Rust port of Google's TextFSM Python library
 - [rust-loguru][rustloguru]: Rust logging library
 - [chrono][chrono]: Rust date and time handling
+- [rustyline][rustyline]: Rust replacement for linux `readline`
 - [parking_lot][parking_lot]: Efficient Rust synchronozation primatives - `Mutex`, `RwLock`, etc... these are faster than stdlib equivalents
 - [colored][colored]: Text color support
 - [hickory-dns][hickory-dns]: A Rust DNS client, server and resolver
@@ -543,3 +544,4 @@
   [parking_lot]: https://github.com/Amanieu/parking_lot
   [colored]: https://github.com/colored-rs/colored
   [comprehensive_rust]: https://google.github.io/comprehensive-rust/
+  [rustyline]: https://github.com/kkawakam/rustyline
