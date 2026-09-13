@@ -40,6 +40,8 @@
   - [Neovide][neovide]: Enhanced neovim GUI with a focus on vim as an IDE
   - [nvim-treesitter][nvim-treesitter]: Parser and auto-complettion for neovim
   - [YouCompleteMe][youcompleteme]: Auto-completion for ALE
+- Dotfiles
+  - [chezmoi][chezmoi]: A dotfiles manager that clones your dotfiles to a fleet of machines
 - Rust
   - [rust-analyzer][rust-analyzer]: Linter for rust projects
 - [Jujitsu][jujitsu]: A trendy alternative to git for DCVS; developed at Google.
@@ -192,6 +194,7 @@
 - [parking_lot][parking_lot]: Efficient Rust synchronozation primatives - `Mutex`, `RwLock`, etc... these are faster than stdlib equivalents
 - [colored][colored]: Text color support
 - [hickory-dns][hickory-dns]: A Rust DNS client, server and resolver
+- [xv][xv]: Like `curl` but in rust.  Example to get all headers `xh --print=h -hv pennington.net`
 - [rustix][rustix]: Replace OS system calls with memory-safe alternatives; no libc binding required.
 - GUI Frameworks
   - [slint][slint]: Build cross-platform user interfaces with clients for Rust, C++, JavaScript and Python; some applications require a paid license.
@@ -246,7 +249,8 @@
 - [sniffglue][sniffglue]: A rust packet sniffer; utilizes all CPU cores. The user interface isn't great; does not use standard pcap filltering args.
 - System Monitoring
   - [bottom][bottom]: Flexible, Rust-based terminal monitoring tool. Favorite invocation - `btm -bT`
-  - [htop][htop]: Multi-core evolution of top
+  - [htop][htop]: Multi-core evolution of `top`
+  - [btop][btop]: Way better than `htop`
   - [procs][procs]: List processes, rust replacement for `ps`
   - [rustnet-monitor][rustnet]: Per-process network monitoring for your terminal: live TCP, UDP, and QUIC connections with deep packet inspection, sandboxed by default.
   - [trippy][trippy]: Traceroute / [mtr][mtr] written in Rust
@@ -295,6 +299,7 @@
   - [sniffnet][sniffnet]: Cross-platform network traffic capture with a nice GUI (Windows / MacOS / Linux)
 - Monitoring / NMS
   - [librenms][librenms]: One stop shop for monitoring Cisco / Arista / etc...
+  - [vigil][vigil]: Excellent network up / down alerting (speaks icmp, tcp, https, http)
   - [Rust-Ping][rust-ping]: Open source NMS written in Rust
   - [network-monitor][network-monitor]: Open source NMS written in Rust
   - [nethogs][nethogs]: Detect which linux processes are consuming the most bandwidth
@@ -549,3 +554,7 @@
   [rustyline]: https://github.com/kkawakam/rustyline
   [rustpbx]: https://github.com/restsend/rustpbx
   [pestparser]: https://github.com/pest-parser/pest
+  [vigil]: https://github.com/valeriansaliou/vigil
+  [xv]: https://github.com/ducaale/xh
+  [btop]: https://github.com/aristocratos/btop
+  [chezmoi]: https://github.com/twpayne/chezmoi
