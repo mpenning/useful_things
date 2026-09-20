@@ -283,6 +283,7 @@
 - [secure_cartography][secure-cartography]: Use CDP / LLDP / SSH to compile accurate network diagrams
 - [influxdb][influxdb]: A time-series database
 - [FRrouting][frr]: The FRRouting Protocol Suite; open implementations of BGP, OSPF, EIGRP, PIM, etc... Use `vtysh` to manage the various routing daemons.
+- [LibreQoS][libreqos]: A Rust-based QoS tool to manage Quality of Experience.  It improves subscriber experience by reducing latency under load while giving operators a local, topology-aware view of network health, subscriber behavior, queue conditions, and traffic patterns.
 
 ### Network Tools: Diagnostics and Testing
 
@@ -558,3 +559,4 @@
   [xv]: https://github.com/ducaale/xh
   [btop]: https://github.com/aristocratos/btop
   [chezmoi]: https://github.com/twpayne/chezmoi
+  [libreqos]: https://github.com/LibreQoE/LibreQoS
