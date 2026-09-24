@@ -251,6 +251,8 @@
   - [bottom][bottom]: Flexible, Rust-based terminal monitoring tool. Favorite invocation - `btm -bT`
   - [htop][htop]: Multi-core evolution of `top`
   - [btop][btop]: Way better than `htop`
+  - [iotop][iotop]: Rust binary to monitor disk utilization by process
+  - [zenith][zenith]: sort of like top or htop but with zoom-able charts, CPU, GPU, network, and disk usage
   - [procs][procs]: List processes, rust replacement for `ps`
   - [rustnet-monitor][rustnet]: Per-process network monitoring for your terminal: live TCP, UDP, and QUIC connections with deep packet inspection, sandboxed by default.
   - [trippy][trippy]: Traceroute / [mtr][mtr] written in Rust
@@ -272,6 +274,7 @@
 
 - [caddy][caddy]: Go webserver / reverse proxy with auto-TLS certificate generation
 - [frp][frp]: A Golang fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
+- [pingora][pingora]: A Rust library used to build a highly scalable web proxy
 - [nsd][nsd]: DNS server in C
 - [coredns][coredns]: Golang DNS server that supports UDP, DoT, DoH, DoQUIC and more.
 - [unbound][unbound]: Popular DNS resolver library
@@ -560,3 +563,6 @@
   [btop]: https://github.com/aristocratos/btop
   [chezmoi]: https://github.com/twpayne/chezmoi
   [libreqos]: https://github.com/LibreQoE/LibreQoS
+  [pingora]: https://github.com/cloudflare/pingora
+  [iotop]: https://github.com/AndPuQing/iotop
+  [zenith]: https://github.com/bvaisvil/zenith
