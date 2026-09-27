@@ -293,7 +293,7 @@
 
 - [Flock Networks][flocknetworks]: A closed-source IP network router toolkit implemented in Rust
 - [R2][r2]: Open source Rust router forwarding plane
-- [zebra-rs][zebra-rs]: Zebra routing protocol suite re-written in Rust
+- [zebra-rs][zebra-rs]: Zebra routing protocol suite re-written in Rust; see the [zebra-rs documentation](https://zebra.rs/)
 - [FRrouting][frr]: The FRRouting Protocol Suite; open implementations of BGP, OSPF, EIGRP, PIM, etc... Use `vtysh` to manage the various routing daemons.
 
 ### Network Tools: Diagnostics and Testing
