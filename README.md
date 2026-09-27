@@ -185,6 +185,7 @@
 
 ### General Rust libraries
 
+- [libc][libc]: Rust bindings to platform libc implementations
 - [rexpect][rexpect]: Rust expect library
 - [textfsm-rust][textfsm-rust]: Rust port of Google's TextFSM Python library
 - [rust-loguru][rustloguru]: Rust logging library
@@ -275,6 +276,7 @@
 - [caddy][caddy]: Go webserver / reverse proxy with auto-TLS certificate generation
 - [frp][frp]: A Golang fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
 - [pingora][pingora]: A Rust library used to build a highly scalable web proxy
+- [pproxy][pproxy]: A Python web proxy implementation
 - [nsd][nsd]: DNS server in C
 - [coredns][coredns]: Golang DNS server that supports UDP, DoT, DoH, DoQUIC and more.
 - [unbound][unbound]: Popular DNS resolver library
@@ -285,8 +287,14 @@
 - [maltrail][maltrail]: Detect malicious network traffic
 - [secure_cartography][secure-cartography]: Use CDP / LLDP / SSH to compile accurate network diagrams
 - [influxdb][influxdb]: A time-series database
-- [FRrouting][frr]: The FRRouting Protocol Suite; open implementations of BGP, OSPF, EIGRP, PIM, etc... Use `vtysh` to manage the various routing daemons.
 - [LibreQoS][libreqos]: A Rust-based QoS tool to manage Quality of Experience.  It improves subscriber experience by reducing latency under load while giving operators a local, topology-aware view of network health, subscriber behavior, queue conditions, and traffic patterns.
+
+### Network Product Implementations
+
+- [Flock Networks][flocknetworks]: A closed-source IP network router toolkit implemented in Rust
+- [R2][r2]: Open source Rust router forwarding plane
+- [zebra-rs][zebra-rs]: Zebra routing protocol suite re-written in Rust
+- [FRrouting][frr]: The FRRouting Protocol Suite; open implementations of BGP, OSPF, EIGRP, PIM, etc... Use `vtysh` to manage the various routing daemons.
 
 ### Network Tools: Diagnostics and Testing
 
@@ -566,3 +574,8 @@
   [pingora]: https://github.com/cloudflare/pingora
   [iotop]: https://github.com/AndPuQing/iotop
   [zenith]: https://github.com/bvaisvil/zenith
+  [pproxy]: https://github.com/qwj/python-proxy
+  [libc]: https://github.com/rust-lang/libc
+  [flocknetworks]: https://flocknetworks.com/
+  [r2]: https://github.com/gopakumarce/R2
+  [zebra-rs]: https://github.com/zebra-rs/zebra-rs
